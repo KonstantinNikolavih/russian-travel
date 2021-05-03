@@ -1,0 +1,114 @@
+.section {
+  min-width: 1100px;
+  /* мы ещё не умеем делать мобильную версию сайта, */
+  /* поэтому выше установлена минимальная ширина страницы */
+  max-width: 1600px;
+  /* выше установили ограничение по максимальной ширине */
+  margin: 0 auto;
+  /* выше для экранов больше 1600px отцентрировали весь контент */
+  font-family: 'Helvetica Neue', Arial, sans-serif, line-height;
+}
+.header {
+  background-color: rgb(61, 56, 56);
+  width: 1288px;
+  height: 42px;
+  left: 16px;
+  top: 16px;
+}
+.header__logo {
+  min-width: 176px;
+  max-height: 52px;
+  left: 48px;
+  top: 28px;
+  background: #fff;
+  background-image: url(../images/header-logo.svg);
+}
+.lead {
+  width: 320px;
+  height: 406px;
+  left: -2px;
+  top: 106px;
+}
+.__title {
+  position: absolute;
+width: 288px;
+height: 88px;
+left: 16px;
+top: 106px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 44px;
+/* or 110% */
+
+text-align: center;
+}
+.__subtitle {
+  position: absolute;
+  width: 288px;
+  height: 40px;
+  left: 16px;
+  top: 210px;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  /* or 125% */
+  
+  text-align: center;
+}
+.__image {
+  position: absolute;
+  width: 320px;
+  height: 200px;
+  left: -2px;
+  top: 290px;
+  
+}
+.__caption {
+  position: absolute;
+  width: 158px;
+  height: 14px;
+  left: 16px;
+  top: 498px;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  /* identical to box height, or 140% */
+  
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+.intro {
+  position: absolute;
+  width: 288px;
+  height: 754px;
+  left: 16px;
+  top: 576px;
+}
+.photo-grid {
+  position: absolute;
+  width: 288px;
+  height: 2724px;
+  left: 16px;
+  top: 1394px;
+}
+.item {
+  position: absolute;
+  width: 288px;
+  height: 216px;
+  left: 16px;
+  top: 2306px;
+  display: grid;
+  grid-template-columns: ;
+  grid-template-rows: ;
+  gap: 20px;
+  
+}

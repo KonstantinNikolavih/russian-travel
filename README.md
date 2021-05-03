@@ -1,1 +1,4 @@
-# russian-travel
+Яндекс практикум 3 спринт 
+russian-travel оптимезация сайта на всех устройствах
+Технология БЭМ Nested
+Сылка GitHub Pages
