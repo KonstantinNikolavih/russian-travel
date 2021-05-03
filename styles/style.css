@@ -76,6 +76,7 @@ ul, li, p, h3, h2, div, img {
   position: absolute;
   width: 176px;
   height: 52px;
+  left: 22px;
   align-self: start;
   background-image: url(../../../images/header-logo.svg);
 }
