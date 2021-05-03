@@ -4,6 +4,8 @@
   /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
   min-height: 6800px;
+  padding-top: 22px;
+  background-color: #2A2C2F;
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
@@ -65,14 +67,16 @@ ul, li, p, h3, h2, div, img {
   min-height: 52px;
   left: 48px;
   top: 28px;
-
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-sizing: border-box;
 }
 .header__logo {
   position: absolute;
   width: 176px;
   height: 52px;
-  left: 48px;
-  top: 28px;
+  align-self: start;
   background-image: url(../../../images/header-logo.svg);
 }
 .header__lang-link {
