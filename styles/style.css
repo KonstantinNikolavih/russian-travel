@@ -167,7 +167,6 @@ ul, li, p, h3, h2, div, img {
   height: 58px;
   left: 148px;
   top: 1233px;
-  
   font-family: Inter;
   font-style: normal;
   font-weight: 900;
@@ -181,7 +180,6 @@ ul, li, p, h3, h2, div, img {
   height: 208px;
   left: 148px;
   top: 1331px;
-  
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -195,15 +193,12 @@ ul, li, p, h3, h2, div, img {
   height: 90px;
   left: 148px;
   top: 1572px;
-  
   font-family: Inter;
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
   line-height: 18px;
   /* or 150% */
-  
-  
 }
 .photo-grid {
   position: absolute;
@@ -222,7 +217,6 @@ ul, li, p, h3, h2, div, img {
   grid-template-columns: ;
   grid-template-rows: ;
   gap: 20px;
-  
 }
 .places {
   position: absolute;
