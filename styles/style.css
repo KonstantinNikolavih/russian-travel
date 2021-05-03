@@ -163,15 +163,60 @@ ul, li, p, h3, h2, div, img {
   height: 429px;
   left: 148px;
   top: 1233px;
+  background-color: #2A2C2F;
+}
+.intro__title {
+  position: absolute;
+  width: 690px;
+  height: 58px;
+  left: 148px;
+  top: 1233px;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  /* identical to box height, or 107% */
+}
+.intro__text {
+  position: absolute;
+  width: 690px;
+  height: 208px;
+  left: 148px;
+  top: 1331px;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 163%;
+  /* or 26px */
+}
+.intro__list {
+  position: absolute;
+  width: 690px;
+  height: 90px;
+  left: 148px;
+  top: 1572px;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  /* or 150% */
+  
+  
 }
 .photo-grid {
   position: absolute;
-  width: 288px;
-  height: 2724px;
-  left: 16px;
-  top: 1394px;
+  width: 1184px;
+  height: 671px;
+  left: 48px;
+  top: 1754px;
 }
-.item {
+.photo-grid__item {
   position: absolute;
   width: 288px;
   height: 216px;
@@ -182,4 +227,107 @@ ul, li, p, h3, h2, div, img {
   grid-template-rows: ;
   gap: 20px;
   
+}
+.places {
+  position: absolute;
+  width: 984px;
+  height: 3392px;
+  left: 148px;
+  top: 2517px;
+}
+.places__place {
+  position: absolute;
+  width: 984px;
+  height: 660px;
+  left: 148px;
+  top: 2517px;
+}
+.cover {
+  position: absolute;
+  width: 1184px;
+  height: 740px;
+  left: 48px;
+  top: 6001px;
+
+}
+.cover__title {
+  position: absolute;
+  width: 560px;
+  height: 152px;
+  left: 360px;
+  top: 6246px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  /* or 106% */
+
+  text-align: center;
+}
+.cover__subtitle {
+  position: absolute;
+  width: 360px;
+  height: 66px;
+  left: 460px;
+  top: 6430px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 122% */
+
+  text-align: center;  
+}
+.cover__overlay {
+  position: absolute;
+  width: 1184px;
+  height: 740px;
+  left: 48px;
+  top: 6001px;
+
+  background: #2A2C2F;
+  opacity: 0.3;
+}
+.cover__background {
+  position: absolute;
+  width: 1184px;
+  height: 740px;
+  left: 48px;
+  top: 6001px;
+  background: url(dmitrii-vaccinium-22833-unsplash.jpg);
+}
+.footer {
+  position: absolute;
+  width: 1184px;
+  height: 18px;
+  left: 48px;
+  top: 6833px;
+
+}
+.footer__link {
+  position: absolute;
+  width: 1184px;
+  height: 18px;
+  left: 48px;
+  top: 6833px;
+}
+.footer__copyright {
+  position: absolute;
+  width: 186px;
+  height: 16px;
+  left: 1046px;
+  top: 6835px;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+  
+  text-align: right;
 }
