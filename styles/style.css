@@ -131,7 +131,6 @@ ul, li, p, h3, h2, div, img {
   line-height: 36px;
   /* or 120% */
   text-align: center;
-
 }
 .lead__image {
   position: absolute;
@@ -139,7 +138,6 @@ ul, li, p, h3, h2, div, img {
   height: 615px;
   left: 148px;
   top: 504px;
-  
 }
 .lead__caption {
   position: absolute;
