@@ -4,7 +4,7 @@
   /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
   min-height: 6800px;
-  padding-top: 22px;
+  /*padding-top: 22px;*/
   background-color: #2A2C2F;
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
@@ -64,22 +64,23 @@ ul, li, p, h3, h2, div, img {
   background-color: #E5E5E5;
   background: #2A2C2F;
   min-width: 1184px;
+  min-width: 80vh;
   min-height: 52px;
-  left: 48px;
-  top: 28px;
+  padding: 28px 48px 0 48px;
   display: flex;
   justify-content: flex-end;
-  align-content: space-between;
-  flex-wrap: wrap;
-  box-sizing: border-box;
+  /*align-content: space-between;
+  flex-wrap: wrap;*/
+  align-items: center;
 }
 .header__logo {
   position: absolute;
+  background-image: url(../../../images/header-logo.svg);
   width: 176px;
   height: 52px;
-  left: 22px;
-  align-self: start;
-  background-image: url(../../../images/header-logo.svg);
+  left: 48px;
+  /*align-self: start;
+  box-sizing: border-box;*/
 }
 .header__lang-link {
   display: flex;
@@ -97,6 +98,10 @@ ul, li, p, h3, h2, div, img {
   text-decoration: none;
   /*text-decoration-line: underline;*/
   color: #FFFFFF;
+  margin-right: 18px;
+}
+.header__lang-link:last-of-type {
+  margin-right: 0;
 }
 .lead {
   width: 984px;
