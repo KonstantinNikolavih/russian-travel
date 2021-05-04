@@ -122,6 +122,7 @@ ul, li, p, h3, h2, div, img {
   line-height: 100px;
   /* or 104% */
   text-align: center;
+  color: #FFF;
 }
 .lead__subtitle {
   position: absolute;
@@ -136,6 +137,7 @@ ul, li, p, h3, h2, div, img {
   line-height: 36px;
   /* or 120% */
   text-align: center;
+  color: #FFF;
 }
 .lead__image {
   position: absolute;
@@ -158,6 +160,7 @@ ul, li, p, h3, h2, div, img {
   /* identical to box height, or 140% */
   letter-spacing: 0.15em;
   text-transform: uppercase;
+  color: #FFF;
 }
 .intro {
   position: absolute;
