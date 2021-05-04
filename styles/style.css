@@ -64,7 +64,6 @@ ul, li, p, h3, h2, div, img {
   background-color: #E5E5E5;
   background: #2A2C2F;
   min-width: 1184px;
-  min-width: 80vh;
   min-height: 52px;
   padding: 28px 48px 0 48px;
   display: flex;
