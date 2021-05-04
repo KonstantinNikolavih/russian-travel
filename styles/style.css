@@ -68,7 +68,8 @@ ul, li, p, h3, h2, div, img {
   left: 48px;
   top: 28px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  align-content: space-between;
   flex-wrap: wrap;
   box-sizing: border-box;
 }
@@ -81,6 +82,7 @@ ul, li, p, h3, h2, div, img {
   background-image: url(../../../images/header-logo.svg);
 }
 .header__lang-link {
+  display: flex;
   width: 30px;
   height: 28px;
   left: 1155px;
