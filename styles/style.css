@@ -103,10 +103,10 @@ ul, li, p, h3, h2, div, img {
   margin-right: 0;
 }
 .lead {
-  width: 984px;
-  height: 1005px;
-  left: 148px;
-  top: 136px;
+  min-width: 984px;
+  min-height: 1005px;
+  /*left: 148px;
+  top: 136px;*/
   background-color: #2A2C2F;
   display: flex;
   flex-direction: column;
@@ -170,15 +170,16 @@ ul, li, p, h3, h2, div, img {
   margin-top: 8px;
 }
 .intro {
-  position: absolute;
   width: 690px;
   height: 429px;
-  left: 148px;
-  top: 1233px;
+  padding: 0 442px 0 148px;
   background-color: #2A2C2F;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: flex-start;
 }
 .intro__title {
-  position: absolute;
   width: 690px;
   height: 58px;
   left: 148px;
@@ -191,7 +192,6 @@ ul, li, p, h3, h2, div, img {
   /* identical to box height, or 107% */
 }
 .intro__text {
-  position: absolute;
   width: 690px;
   height: 208px;
   left: 148px;
@@ -204,7 +204,6 @@ ul, li, p, h3, h2, div, img {
   /* or 26px */
 }
 .intro__list {
-  position: absolute;
   width: 690px;
   height: 90px;
   left: 148px;
