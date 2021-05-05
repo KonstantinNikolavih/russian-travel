@@ -172,30 +172,28 @@ ul, li, p, h3, h2, div, img {
 .intro {
   width: 690px;
   height: 429px;
-  padding: 0 442px 0 148px;
-  background-color: #2A2C2F;
+  padding: 114px 442px 0 148px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-content: flex-start;
 }
 .intro__title {
   width: 690px;
   height: 58px;
-  left: 148px;
-  top: 1233px;
   font-family: Inter;
   font-style: normal;
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
   /* identical to box height, or 107% */
+  color: #FFF;
 }
 .intro__text {
+  margin-top: 40px;
   width: 690px;
   height: 208px;
-  left: 148px;
-  top: 1331px;
+  color: #FFF;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -206,14 +204,14 @@ ul, li, p, h3, h2, div, img {
 .intro__list {
   width: 690px;
   height: 90px;
-  left: 148px;
-  top: 1572px;
+  margin-top: 33px;
   font-family: Inter;
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
   line-height: 18px;
   /* or 150% */
+  color: #FFF;
 }
 .photo-grid {
   position: absolute;
