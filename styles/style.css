@@ -309,14 +309,13 @@ ul, li, p, h3, h2, div, img {
 
 }
 .footer__link {
-  position: absolute;
+ 
   width: 1184px;
   height: 18px;
   left: 48px;
   top: 6833px;
 }
 .footer__copyright {
-  position: absolute;
   width: 186px;
   height: 16px;
   left: 1046px;
