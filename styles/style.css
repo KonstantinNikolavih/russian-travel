@@ -309,7 +309,6 @@ ul, li, p, h3, h2, div, img {
 
 }
 .footer__link {
- 
   width: 1184px;
   height: 18px;
   left: 48px;
@@ -318,15 +317,11 @@ ul, li, p, h3, h2, div, img {
 .footer__copyright {
   width: 186px;
   height: 16px;
-  left: 1046px;
-  top: 6835px;
-  
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
   /* identical to box height, or 114% */
-  
   text-align: right;
 }
