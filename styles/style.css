@@ -228,7 +228,7 @@ ul, li, p, h3, h2, div, img {
   gap: 20px;*/
 }
 .places {
-  position: absolute;
+ 
   width: 984px;
   width: 100%;
   height: 3392px;
@@ -236,26 +236,24 @@ ul, li, p, h3, h2, div, img {
   top: 2517px;
 }
 .places__place {
-  position: absolute;
+ 
   width: 984px;
   height: 660px;
   left: 148px;
   top: 2517px;
 }
 .cover {
-  position: absolute;
+ 
   width: 1184px;
   height: 740px;
-  left: 48px;
-  top: 6001px;
+
 
 }
 .cover__title {
-  position: absolute;
+ 
   width: 560px;
   height: 152px;
-  left: 360px;
-  top: 6246px;
+
 
   font-family: Inter;
   font-style: normal;
@@ -267,11 +265,10 @@ ul, li, p, h3, h2, div, img {
   text-align: center;
 }
 .cover__subtitle {
-  position: absolute;
+
   width: 360px;
   height: 66px;
-  left: 460px;
-  top: 6430px;
+
 
   font-family: Inter;
   font-style: normal;
@@ -283,36 +280,29 @@ ul, li, p, h3, h2, div, img {
   text-align: center;  
 }
 .cover__overlay {
-  position: absolute;
+ 
   width: 1184px;
   height: 740px;
-  left: 48px;
-  top: 6001px;
 
   background: #2A2C2F;
   opacity: 0.3;
 }
 .cover__background {
-  position: absolute;
+
   width: 1184px;
   height: 740px;
-  left: 48px;
-  top: 6001px;
   background: url(dmitrii-vaccinium-22833-unsplash.jpg);
 }
 .footer {
-  position: absolute;
+
   width: 1184px;
   height: 18px;
-  left: 48px;
-  top: 6833px;
 
 }
 .footer__link {
   width: 1184px;
   height: 18px;
-  left: 48px;
-  top: 6833px;
+
 }
 .footer__copyright {
   width: 186px;
