@@ -246,22 +246,16 @@ ul, li, p, h3, h2, div, img {
  
   width: 1184px;
   height: 740px;
-
-
 }
 .cover__title {
- 
   width: 560px;
   height: 152px;
-
-
   font-family: Inter;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
   /* or 106% */
-
   text-align: center;
 }
 .cover__subtitle {
