@@ -265,18 +265,14 @@ ul, li, p, h3, h2, div, img {
   text-align: center;
 }
 .cover__subtitle {
-
   width: 360px;
   height: 66px;
-
-
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
   /* or 122% */
-
   text-align: center;  
 }
 .cover__overlay {
