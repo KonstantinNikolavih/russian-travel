@@ -294,6 +294,7 @@ ul, li, p, h3, h2, div, img {
   background: url(dmitrii-vaccinium-22833-unsplash.jpg);
 }
 .footer {
+display: flex;
 
   width: 1184px;
   height: 18px;
