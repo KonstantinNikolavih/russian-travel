@@ -337,8 +337,8 @@ ul, li, p, h3, h2, div, img {
   align-items: center;
 }
 .cover__title {
-  position: relative;
-  z-index: 2;
+  position: absolute;
+  z-index: 3;
   margin: 232px 195px 293px;
   width: 560px;
   height: 152px;
@@ -354,7 +354,7 @@ ul, li, p, h3, h2, div, img {
 }
 .cover__subtitle {
   position: absolute;
-  z-index: 2;
+  z-index: 3;
   margin: 379px 322px 195px;
   width: 360px;
   height: 66px;
@@ -369,16 +369,15 @@ ul, li, p, h3, h2, div, img {
 }
 .cover__overlay {
   position: relative;
-  z-index: -1;
-  width: 1184px;
-  height: 740px;
+  z-index: 2;
+  min-width: 1184px;
+  min-height: 740px;
   background: #2A2C2F;
   opacity: 0.3;
   align-items: center;
   box-sizing: border-box;
 }
 .cover__overlay:hover {
-  position: absolute;
   background: #2A2C2F;
   opacity: 0.8;
 }
