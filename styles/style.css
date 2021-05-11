@@ -21,8 +21,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -33,7 +33,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -57,7 +57,7 @@ table {
 }
 ul, li, p, h3, h2, div, img {
   border: 1px solid red;
-}  
+}
 /*сброс отступов*/
 
 .header {
@@ -166,7 +166,7 @@ ul, li, p, h3, h2, div, img {
   text-transform: uppercase;
   color: #FFF;
   margin-top: 8px;
-  
+
 }
 .intro {
   width: 690px;
@@ -268,12 +268,12 @@ ul, li, p, h3, h2, div, img {
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-  /* or 106% */  
+  /* or 106% */
   color: #FFF;
 }
 .place__image {
   width: 460px;
-  height: 460px; 
+  height: 460px;
 }
 .place__website {
   min-width: 456px;
@@ -327,8 +327,19 @@ ul, li, p, h3, h2, div, img {
 .cover {
   width: 1184px;
   height: 740px;
+  display: flex;
+}
+.cover__blok {
+  display: flex;
+  margin: 0 48px 0;
+  align-content: flex-start;
+  flex-direction: column;
+  align-items: center;
 }
 .cover__title {
+  position: relative;
+  z-index: 2;
+  margin: 232px 195px 293px;
   width: 560px;
   height: 152px;
   font-family: Inter;
@@ -338,8 +349,13 @@ ul, li, p, h3, h2, div, img {
   line-height: 76px;
   /* or 106% */
   text-align: center;
+  text-decoration: none;
+  color: #FFF;
 }
 .cover__subtitle {
+  position: absolute;
+  z-index: 2;
+  margin: 379px 322px 195px;
   width: 360px;
   height: 66px;
   font-family: Inter;
@@ -348,18 +364,34 @@ ul, li, p, h3, h2, div, img {
   font-size: 18px;
   line-height: 22px;
   /* or 122% */
-  text-align: center;  
+  text-align: center;
+  color: #FFF;
 }
 .cover__overlay {
+  position: relative;
+  z-index: -1;
   width: 1184px;
   height: 740px;
   background: #2A2C2F;
   opacity: 0.3;
+  align-items: center;
+  box-sizing: border-box;
+}
+.cover__overlay:hover {
+  position: absolute;
+  background: #2A2C2F;
+  opacity: 0.8;
 }
 .cover__background {
+  position: absolute;
+  z-index: 1;
   width: 1184px;
   height: 740px;
-  background: url(dmitrii-vaccinium-22833-unsplash.jpg);
+  background: url(../images/cover-trains.jpg);
+  background-color: rgba(0,0,0, .3);
+  background-size: contain;
+  align-items: center;
+
 }
 .footer {
   display: flex;
