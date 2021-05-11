@@ -397,16 +397,35 @@ ul, li, p, h3, h2, div, img {
   display: flex;
   justify-content: flex-start;
   align-content: flex-start;
-  width: 1184px;
+  padding-top: 92px;
+  padding-bottom: 24px;
+  min-width: 1184px;
   height: 18px;
 }
+.menu {
+  margin: 0 48px 0 48px;
+
+}
 .footer__link {
-  width: 1184px;
+  width: 50px;
   height: 18px;
+  margin-right: 18px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 18px;
+/* identical to box height, or 112% */
+  color: #FFFFFF;
+}
+.footer__link:last-of-type {
+  margin-right: 0;
 }
 .footer__copyright {
   width: 186px;
   height: 16px;
+  margin-left: 472px;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -414,4 +433,5 @@ ul, li, p, h3, h2, div, img {
   line-height: 16px;
   /* identical to box height, or 114% */
   text-align: right;
+  color: #FFF;
 }
