@@ -102,6 +102,9 @@ ul, li, p, h3, h2, div, img {
 .header__lang-link:last-of-type {
   margin-right: 0;
 }
+.header__lang-link-active {
+  text-decoration: none;
+}
 .lead {
   min-width: 984px;
   min-height: 1005px;
