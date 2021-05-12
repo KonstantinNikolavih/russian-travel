@@ -415,7 +415,7 @@ ul, li, p, h3, h2, div, img {
   height: 18px;
 }
 .menu {
-  margin: 0 48px 0 48px;
+  margin: 0 auto 0 48px;
 
 }
 .footer__link {
