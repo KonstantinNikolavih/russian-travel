@@ -437,7 +437,7 @@ ul, li, p, h3, h2, div, img {
 .footer__copyright {
   width: 186px;
   height: 16px;
-  margin-right: 48px;
+  margin: auto 48px;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -446,7 +446,4 @@ ul, li, p, h3, h2, div, img {
   /* identical to box height, or 114% */
   text-align: right;
   color: #FFF;
-}
-.footer__copyright_avtor {
-margin: auto;
 }
