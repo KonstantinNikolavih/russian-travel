@@ -67,10 +67,8 @@ ul, li, p, h3, h2, div, img {
   min-height: 52px;
   padding: 28px 48px 0 48px;
   display: flex;
-  justify-content: flex-end;
-  /*align-content: space-between;
-  flex-wrap: wrap;*/
-  align-items: center;
+  justify-content: space-between;
+  align-content: flex-start;
 }
 .Header__logo_menu {
   display: flex;
@@ -78,16 +76,16 @@ ul, li, p, h3, h2, div, img {
   align-items: flex-start;
 }
 .header__logo {
-  position: absolute;
   background-image: url(../../../images/header-logo.svg);
   width: 176px;
   height: 52px;
-  left: 48px;
   /*align-self: start;
   box-sizing: border-box;*/
 }
 .header__links {
-
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 .header__lang-link {
   display: flex;
