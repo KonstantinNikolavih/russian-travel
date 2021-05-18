@@ -72,6 +72,11 @@ ul, li, p, h3, h2, div, img {
   flex-wrap: wrap;*/
   align-items: center;
 }
+.Header__logo_menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
 .header__logo {
   position: absolute;
   background-image: url(../../../images/header-logo.svg);
@@ -80,6 +85,9 @@ ul, li, p, h3, h2, div, img {
   left: 48px;
   /*align-self: start;
   box-sizing: border-box;*/
+}
+.header__links {
+
 }
 .header__lang-link {
   display: flex;
