@@ -343,8 +343,7 @@ ul, li, p, h3, h2, div, img {
 }
 .cover__blok {
   display: flex;
-  margin: 0 48px 0;
-  margin: auto;
+  margin: 0 auto 0;
   align-content: flex-start;
   flex-direction: column;
   align-items: center;
@@ -368,7 +367,7 @@ ul, li, p, h3, h2, div, img {
 .cover__subtitle {
   position: absolute;
   z-index: 3;
-  margin: 379px 322px 195px;
+  margin: 424px 322px 195px;
   width: 360px;
   height: 66px;
   font-family: Inter;
@@ -401,10 +400,9 @@ ul, li, p, h3, h2, div, img {
   height: 740px;
   background: url(../images/cover-trains.jpg);
   background-color: #000;
-  box-shadow: 0 0 10px 6px #000;
   background-size: contain;
   align-items: center;
-
+  opacity: 0.8;
 }
 .footer {
   display: flex;
