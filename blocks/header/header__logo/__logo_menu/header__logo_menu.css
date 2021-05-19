@@ -1,0 +1,5 @@
+.header__logo_menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}

@@ -113,8 +113,6 @@ ul, li, p, h3, h2, div, img {
 .lead {
   min-width: 984px;
   min-height: 1005px;
-  /*left: 148px;
-  top: 136px;*/
   background-color: #2A2C2F;
   display: flex;
   flex-direction: column;
