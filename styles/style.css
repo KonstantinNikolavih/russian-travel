@@ -1,8 +1,7 @@
 .page {
-  min-width: 1280px;
   /* мы ещё не умеем делать мобильную версию сайта, */
   /* поэтому выше установлена минимальная ширина страницы */
-  max-width: 1600px;
+  min-width: 1280px;
   /*min-height: 6800px;
   padding-top: 22px;*/
   background-color: #2A2C2F;
@@ -143,8 +142,6 @@ ul, li, p, h3, h2, div, img {
 .lead__subtitle {
   width: 640px;
   height: 72px;
-  left: 320px;
-  top: 368px;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -158,8 +155,6 @@ ul, li, p, h3, h2, div, img {
 .lead__image {
   width: 984px;
   height: 615px;
-  left: 148px;
-  top: 504px;
 }
 .lead__caption {
   position: relative;
@@ -225,14 +220,14 @@ ul, li, p, h3, h2, div, img {
 .photo-grid {
   width: 1184px;
   height: 671px;
-  margin: 0 48px 0;
+  margin: auto;
+  padding: 0 48px 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, 284px);
   grid-template-rows: repeat(4, 1fr);
   gap: 16px;
   align-items: center;
   justify-content: space-around;
-  margin: auto;
 }
 .photo-grid__item {
   width: 284px;
@@ -261,7 +256,7 @@ ul, li, p, h3, h2, div, img {
   justify-content: space-between;
   width: 984px;
   height: 660px;
-  margin: 0 auto 80px;
+  margin: auto auto 80px;
   /*display: grid;
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas: "place__title place__website"
@@ -419,8 +414,10 @@ ul, li, p, h3, h2, div, img {
   padding-bottom: 24px;
   min-width: 1184px;
   height: 18px;
+  background-color: #2A2C2F;
+  margin: auto;
 }
-.menu {
+.footer__menu {
   margin: 0 auto 0 48px;
 
 }
