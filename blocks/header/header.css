@@ -8,4 +8,21 @@
   justify-content: space-between;
   align-content: flex-start;
 }
-
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+.header {
+  margin: auto;
+  min-width: 1024px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+.header {
+  margin: auto;
+  min-width: 768px;
+  }
+}
+@media screen and (min-width: 0) and (max-width: 768px) {
+.header {
+  margin: auto;
+  min-width: 320px;
+  }
+}
