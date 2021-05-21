@@ -1,4 +1,4 @@
-.header__lang_link {
+.header__lang-link {
   display: flex;
   width: 30px;
   height: 28px;
@@ -15,6 +15,6 @@
   color: #FFFFFF;
   margin-right: 18px;
 }
-.header__lang_link:last-of-type {
+.header__lang-link:last-of-type {
   margin-right: 0;
 }
