@@ -1,11 +1,11 @@
-.header {
-  background-color: #E5E5E5;
-  background: #2A2C2F;
-  min-width: 1184px;
-  min-height: 52px;
-  padding: 28px 48px 0 48px;
+.footer {
   display: flex;
   justify-content: space-between;
-  align-content: flex-start;
+  align-items: center;
+  padding-top: 92px;
+  padding-bottom: 24px;
+  min-width: 1184px;
+  height: 18px;
+  background-color: #2A2C2F;
+  margin: auto;
 }
-

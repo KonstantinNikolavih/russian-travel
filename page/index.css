@@ -6,3 +6,15 @@
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__lang-link/__lang-link_active/header__lang-link_active.css);
+
+
+
+
+@import url(../blocks/header/s);
+@import url(../blocks/header/);
+@import url(../blocks/header/__);
+@import url(../blocks/header/);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);

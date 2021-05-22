@@ -1,11 +1,13 @@
-.header {
-  background-color: #E5E5E5;
-  background: #2A2C2F;
-  min-width: 1184px;
-  min-height: 52px;
-  padding: 28px 48px 0 48px;
-  display: flex;
-  justify-content: space-between;
-  align-content: flex-start;
+.footer__copyright {
+  width: 186px;
+  height: 16px;
+  margin: auto 48px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+  text-align: right;
+  color: #FFF;
 }
-
