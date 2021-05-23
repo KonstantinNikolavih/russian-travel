@@ -215,26 +215,8 @@ ul, li, p, h3, h2, div, img {
   /* or 150% */
   color: #FFF;
 }
-.photo-grid {
-  width: 1184px;
-  height: 671px;
-  margin: auto;
-  padding: 0 48px 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 284px);
-  grid-template-rows: repeat(4, 1fr);
-  gap: 16px;
-  align-items: center;
-  justify-content: space-around;
-}
-.photo-grid__item {
-  width: 284px;
-  height: 213px;
-  /*display: grid;
-  grid-template-columns: ;
-  grid-template-rows: ;
-  gap: 20px;*/
-}
+
+
 .places {
   min-width: 984px;
   padding: 92px 0 92px;
