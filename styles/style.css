@@ -333,74 +333,10 @@ ul, li, p, h3, h2, div, img {
 .place__paragaph:last-of-type {
   margin-bottom: 0;
 }
-.cover {
-  width: 1184px;
-  height: 740px;
-  display: flex;
-  margin: auto;
-}
-.cover__blok {
-  display: flex;
-  margin: 0 auto 0;
-  align-content: flex-start;
-  flex-direction: column;
-  align-items: center;
-}
-.cover__title {
-  position: absolute;
-  z-index: 3;
-  margin: 232px 195px 293px;
-  width: 560px;
-  height: 152px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 72px;
-  line-height: 76px;
-  /* or 106% */
-  text-align: center;
-  text-decoration: none;
-  color: #FFF;
-}
-.cover__subtitle {
-  position: absolute;
-  z-index: 3;
-  margin: 424px 322px 195px;
-  width: 360px;
-  height: 66px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 22px;
-  /* or 122% */
-  text-align: center;
-  color: #FFF;
-}
-.cover__overlay {
-  position: relative;
-  z-index: 2;
-  min-width: 1184px;
-  min-height: 740px;
-  background: #2A2C2F;
-  opacity: 0.3;
-  align-items: center;
-  box-sizing: border-box;
-}
-.cover__overlay:hover {
-  background: #2A2C2F;
-  opacity: 0.8;
-}
-.cover__background {
-  position: absolute;
-  z-index: 1;
-  width: 1184px;
-  height: 740px;
-  background: url(../images/cover-trains.jpg);
-  background-color: #000;
-  background-size: contain;
-  align-items: center;
-  opacity: 0.8;
-}
+
+
+
+
+
 
 
