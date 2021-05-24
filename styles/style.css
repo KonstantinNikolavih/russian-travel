@@ -118,11 +118,7 @@ ul, li, p, h3, h2, div, img {
 
 
 
-.places {
-  min-width: 984px;
-  padding: 92px 0 92px;
-  margin: 0 148px 0;
-}
+
 .place-list {
   display: flex;
   flex-direction: column;
