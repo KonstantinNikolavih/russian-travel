@@ -8,4 +8,6 @@
   /* or 122% */
   text-align: center;
   color: #FFF;
+  z-index: 1;
+  margin: 0;
 }

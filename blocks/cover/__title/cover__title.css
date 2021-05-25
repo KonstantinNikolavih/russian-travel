@@ -9,4 +9,7 @@
   text-align: center;
   text-decoration: none;
   color: #FFF;
+  z-index: 1;
+  margin-top: 0;
+  margin-bottom: 32px;
 }

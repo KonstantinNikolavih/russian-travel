@@ -2,9 +2,11 @@
 .cover__blok {
   min-width: 1184px;
   height: 740px;
-  position: absolute;
   background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
+  color: #fff 0;
+  background-position: center;
+  text-decoration: none;
   margin: 0 auto 0;
   display: flex;
   align-items: center;
@@ -12,12 +14,13 @@
   justify-content: center;
 }
 .cover__blok::before {
+  min-width: 1184px;
   position: absolute;
   background: #2A2C2F;
-  opacity: 0.8;
+  opacity: 0.3;
  /* ...это мы делаем псевдоэлемент как затемняющий фон между контейнером и текстами. Прозрачность выставляем как 0*/
 }
 .cover__blok:hover::before {
-  opacity: 0.3;
+  opacity: 0.8;
   /*при наведении прозрачность псевдоэлемента выставляем как в макете - 0.8*/
 }
