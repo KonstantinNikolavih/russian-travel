@@ -1,6 +1,5 @@
 .intro__title {
-  width: 690px;
-  height: 58px;
+  min-width: 690px;
   font-family: Inter;
   font-style: normal;
   font-weight: 900;
@@ -8,4 +7,6 @@
   line-height: 58px;
   /* identical to box height, or 107% */
   color: #FFF;
+  margin-top: 0;
+  margin-bottom: 40px;
 }

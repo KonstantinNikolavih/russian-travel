@@ -1,7 +1,5 @@
 .intro__text {
-  margin-top: 40px;
-  width: 690px;
-  height: 208px;
+  min-width: 690px;
   color: #FFF;
   font-family: Inter;
   font-style: normal;
@@ -9,4 +7,6 @@
   font-size: 16px;
   line-height: 163%;
   /* or 26px */
+  margin-top: 0;
+  margin-bottom: 0;
 }

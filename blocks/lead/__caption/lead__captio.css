@@ -1,7 +1,6 @@
 .lead__caption {
   position: relative;
-  width: 158px;
-  height: 14px;
+  min-width: 158px;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -12,5 +11,4 @@
   text-transform: uppercase;
   color: #FFF;
   margin: 8px 0 0 -820px;
-
 }

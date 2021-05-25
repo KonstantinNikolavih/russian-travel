@@ -1,10 +1,8 @@
 .intro {
-  width: 690px;
-  height: 429px;
+  min-width: 690px;
   padding: 92px 442px 92px 148px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-content: flex-start;
-  margin: auto;
+  align-items: flex-end
 }
