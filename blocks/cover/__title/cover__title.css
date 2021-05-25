@@ -1,9 +1,5 @@
 .cover__title {
-  position: absolute;
-  z-index: 3;
-  margin: 232px 195px 293px;
   width: 560px;
-  height: 152px;
   font-family: Inter;
   font-style: normal;
   font-weight: 900;

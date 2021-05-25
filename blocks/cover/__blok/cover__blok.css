@@ -1,7 +1,23 @@
+/*тут выставляем минимальную высоту (которую редактируем в нужных брейкпоинтах) и выставляем картинку на фон*/
 .cover__blok {
-  display: flex;
+  min-width: 1184px;
+  height: 740px;
+  position: absolute;
+  background-image: url(../../../images/cover-trains.jpg);
+  background-size: cover;
   margin: 0 auto 0;
-  align-content: flex-start;
-  flex-direction: column;
+  display: flex;
   align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.cover__blok::before {
+  position: absolute;
+  background: #2A2C2F;
+  opacity: 0.8;
+ /* ...это мы делаем псевдоэлемент как затемняющий фон между контейнером и текстами. Прозрачность выставляем как 0*/
+}
+.cover__blok:hover::before {
+  opacity: 0.3;
+  /*при наведении прозрачность псевдоэлемента выставляем как в макете - 0.8*/
 }
