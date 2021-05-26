@@ -7,21 +7,18 @@
   justify-content: space-between;
   align-content: flex-start;
 }
-@media all and (min-width: 1024px) and (max-width: 1280px) {
-.header {
-  margin: auto;
-  min-width: 1024px;
-  }
-}
+
 @media all and (min-width: 768px) and (max-width: 1024px) {
 .header {
   margin: auto;
   min-width: 768px;
+  padding: 28px 24px 0 24px;
   }
 }
 @media all and (min-width: 0) and (max-width: 768px) {
 .header {
   margin: auto;
   min-width: 320px;
+  padding: 16px 16px 0 16px;
   }
 }
