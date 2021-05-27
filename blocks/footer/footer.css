@@ -1,9 +1,18 @@
 .footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  max-width: 1184px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 5fr));
   padding-top: 92px;
   padding-bottom: 24px;
-  min-width: 1184px;
   background-color: #2A2C2F;
 }
+@media screen and (max-width: 1024px) {
+  .footer {
+  /*   padding: 28px 24px 0 24px; */
+    }
+  }
+  @media screen and (max-width: 768px) {
+  .footer {
+   margin-left: 24px;
+    }
+  }

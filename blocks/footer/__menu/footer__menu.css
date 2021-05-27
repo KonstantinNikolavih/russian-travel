@@ -1,4 +1,17 @@
 .footer__menu {
-  margin: 0 auto 0 48px;
+
 
 }
+@media screen and (max-width: 1024px) {
+  .footer__menu {
+
+    }
+  }
+  @media screen and (max-width: 450px) {
+  .footer__menu {
+   margin-left: 16px;
+   margin-top: ;
+   margin-bottom: 48px;
+   display: grid;
+    }
+  }
