@@ -1,5 +1,5 @@
 .place__url-heading {
-  width: 456px;
+  max-width: 456px;
   height: 12px;
   margin: 107px 0 12px;
   font-family: Inter;
@@ -10,4 +10,20 @@
 /* identical to box height, or 100% */
   letter-spacing: 0.2em;
   color: #AAA;
+  grid-area: url;
 }
+@media screen and (max-width: 1024px) {
+  .place__preview {
+
+  }
+  }
+@media screen and (max-width: 683px) {
+  .place__preview {
+
+  }
+  }
+@media screen and (max-width: 340px) {
+  .place__preview {
+
+  }
+  }
