@@ -1,7 +1,6 @@
 .footer__copyright {
-  width: 186px;
-  height: 16px;
-  margin: auto 48px;
+  max-width: 100%;
+  /* display: grid; */
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -11,3 +10,18 @@
   text-align: right;
   color: #FFF;
 }
+
+@media screen and (max-width: 1024px) {
+  .footer__copyright {
+    align-self: center;
+    margin-right: 48px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+  .footer__copyright {
+   /* margin-left: 16px;
+   margin-top: ;
+   margin-bottom: 48px;
+   display: grid; */
+    }
+  }
