@@ -1,6 +1,8 @@
 .header {
-  max-width: 100%;
+  max-width: 1184px;
   padding: 28px 48px 0 48px;
+  /* margin-left: 48px;
+  margin-right: 48px; */
   display: flex;
   justify-content: space-between;
   align-content: flex-start;
