@@ -1,5 +1,5 @@
 .intro__list {
-  min-width: 690px;
+  max-width: 690px;
   margin-top: 33px;
   list-style: none;
   font-family: Inter;
@@ -10,5 +10,5 @@
   /* or 150% */
   color: #FFF;
   margin-bottom: 0;
+  padding: 0;
 }
-@media
