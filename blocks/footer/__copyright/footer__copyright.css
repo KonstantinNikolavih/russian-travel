@@ -1,5 +1,5 @@
 .footer__copyright {
-  max-width: 100%;
+  max-width: 1184;
   /* display: grid; */
   font-family: Inter;
   font-style: normal;
@@ -9,19 +9,20 @@
   /* identical to box height, or 114% */
   text-align: right;
   color: #FFF;
+
 }
 
 @media screen and (max-width: 1024px) {
   .footer__copyright {
     align-self: center;
-    margin-right: 48px;
+
     }
   }
   @media screen and (max-width: 450px) {
   .footer__copyright {
-   /* margin-left: 16px;
-   margin-top: ;
-   margin-bottom: 48px;
-   display: grid; */
+    margin-top: 48px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 14px;
     }
   }

@@ -1,9 +1,10 @@
 .footer {
   max-width: 1184px;
   margin-left: 48px;
-  display: grid;
+  margin-right: 48px;
+  /* display: grid;
   grid-template-columns: 41% 19%;
-  gap: 40%;
+  gap: 40%; */
   /* grid-template-columns: repeat(auto-fit, minmax(80px, 5fr)); */
   padding-top: 92px;
   padding-bottom: 24px;

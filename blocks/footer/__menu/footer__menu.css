@@ -1,6 +1,9 @@
 .footer__menu {
   align-self: center;
-
+display: grid;
+grid-template-columns: minmax(5, 10%);
+grid-template-rows: repeat(5, minmax(min-content, max-content));
+row-gap: 32px;
 }
 @media screen and (max-width: 1024px) {
   .footer__menu {
