@@ -2,6 +2,10 @@
   max-width: 1184px;
   margin-left: 48px;
   margin-right: 48px;
+  row-gap: 32px;
+    grid-gap: 0px;
+    grid-template-columns: repeat(auto-fit, minmax(17%, 5fr));
+    width: 101%;
   /* display: grid;
   grid-template-columns: 41% 19%;
   gap: 40%; */

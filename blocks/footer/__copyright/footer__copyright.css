@@ -1,6 +1,8 @@
 .footer__copyright {
-  max-width: 1184;
+  display: grid;
+  /* max-width: 1184; */
   /* display: grid; */
+  min-width: 10%;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -17,6 +19,14 @@
     align-self: center;
 
     }
+  }
+  @media screen and (max-width: 756px) {
+    .footer__copyright {
+      text-align: left;
+      margin-top: 32px;
+    }
+  }
+
   }
   @media screen and (max-width: 450px) {
   .footer__copyright {
