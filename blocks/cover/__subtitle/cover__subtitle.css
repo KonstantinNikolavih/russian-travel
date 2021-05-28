@@ -11,3 +11,20 @@
   z-index: 1;
   margin: 0;
 }
+@media screen and (max-width: 1280px) {
+  .cover__subtitle {
+    }
+  }
+  @media screen and (max-width: 756px) {
+  .cover__subtitle {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  }
+  @media screen and (max-width: 450px) {
+    .cover__subtitle {
+      max-width: 288px;
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }

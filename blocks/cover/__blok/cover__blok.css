@@ -1,26 +1,46 @@
 /*тут выставляем минимальную высоту (которую редактируем в нужных брейкпоинтах) и выставляем картинку на фон*/
 .cover__blok {
-  min-width: 1184px;
-  height: 740px;
+  max-width: 1184зч;
+  min-height: 740px;
   background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
-  color: #fff 0;
+  /* color: #fff; */
   background-position: center;
   text-decoration: none;
-  margin: 0 auto 0;
+  margin: auto;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
 .cover__blok::before {
-  min-width: 1184px;
+  content: "";
+  min-width: 100%;
+  min-height: 100%;
   position: absolute;
   background: #2A2C2F;
   opacity: 0.3;
- /* ...это мы делаем псевдоэлемент как затемняющий фон между контейнером и текстами. Прозрачность выставляем как 0*/
 }
 .cover__blok:hover::before {
   opacity: 0.8;
-  /*при наведении прозрачность псевдоэлемента выставляем как в макете - 0.8*/
 }
+@media screen and (max-width: 1280px) {
+  .cover__blok {
+  min-height: 640px;
+    }
+  }
+  @media screen and (max-width: 756px) {
+  .cover__blok {
+    min-height: 480px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .cover__blok {
+     /*  min-width: 450px;
+      min-height: 380px; */
+    }
+  }
+  @media screen and (max-width: 320px) {
+  .cover__blok {
+    min-height: 200px;
+  }
