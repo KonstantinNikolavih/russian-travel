@@ -20,3 +20,8 @@
       padding-top: 66px;
     }
   }
+  @media screen and (max-width: 450px) {
+    .cover {
+      min-height: 100%;
+    }
+  }
