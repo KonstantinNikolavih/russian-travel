@@ -1,6 +1,6 @@
 .place__paragaph {
   max-width: 456px;
-  margin-bottom: 27px;
+  margin-bottom: 26px;
   /* height: 203px; */
   font-family: Inter;
   font-style: normal;
@@ -10,7 +10,20 @@
   /* or 29px */
   color: #FFFFFF;
   grid-area: paragaph;
+  margin-top: 0;
 }
 .place__paragaph:last-of-type {
   margin-bottom: 0;
+}
+@media screen and (max-width: 768px) {
+  .place__paragaph {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .place__paragaph {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 25px;
+  }
 }
