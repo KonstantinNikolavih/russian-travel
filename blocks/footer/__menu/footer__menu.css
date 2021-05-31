@@ -20,10 +20,10 @@ grid-template-columns: repeat(auto-fit, minmax(80px, 7fr)); */
 @media screen and (max-width: 1024px) {
   .footer__menu {
 
-    }
   }
-  @media screen and (max-width: 756px) {
-    .footer__menu {
+}
+@media screen and (max-width: 756px) {
+  .footer__menu {
       /* grid-template-columns: repeat(auto-fit, minmax(120px, 0fr));
       row-gap: 32px;
       gap: 32px;
@@ -31,17 +31,17 @@ grid-template-columns: repeat(auto-fit, minmax(80px, 7fr)); */
        /*ate-columns: minmax(5, 5fr); */
       /* grid-template-columns: repeat(5, minmax(min-content, max-content));
 grid-template-rows: repeat(5, minmax(min-content, max-content)); */
-    }
   }
-  @media screen and (max-width: 450px) {
+}
+@media screen and (max-width: 450px) {
   .footer__menu {
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-   margin-left: 16px;
+    margin-left: 16px;
    /* margin-top: ; */
    /* margin-bottom: 48px; */
-   display: flex;
+    display: flex;
 /*    display: grid; */
-    }
   }
+}

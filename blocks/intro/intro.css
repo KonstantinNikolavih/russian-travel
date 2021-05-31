@@ -8,14 +8,14 @@
     margin-left: 48px;
     }
   }
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .intro {
     margin-left: 24px;
-    }
   }
-  @media screen and (max-width: 550px) {
-    .intro {
-      margin-left: 16px;
-      margin-right: 16px;
+}
+@media screen and (max-width: 550px) {
+  .intro {
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }

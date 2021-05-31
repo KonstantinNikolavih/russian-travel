@@ -10,23 +10,20 @@
 /* identical to box height, or 112% */
   color: #FFFFFF;
 }
-/* .footer__link:last-of-type {
-  margin-right: 0; */
-}
 @media screen and (max-width: 1024px) {
   .footer__link {
 
-    }
   }
-  @media screen and (max-width: 490px) {
+}
+@media screen and (max-width: 490px) {
   .footer__link {
-   margin-bottom: 32px;
-    }
+    margin-bottom: 32px;
+  }
  /*  .footer__link:last-of-type {
     margin-right: 0;
     margin-bottom: 0;
     } */
-  }
+}
 @media screen and (max-width: 450px) {
   .footer__link {
    font-size: 24px;

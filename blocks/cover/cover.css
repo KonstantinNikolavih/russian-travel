@@ -7,21 +7,21 @@
 @media screen and (max-width: 1280px) {
   .cover {
     /*  max-width: calc(100% - 48px*2) */
-    }
   }
-  @media screen and (max-width: 756px) {
+}
+@media screen and (max-width: 756px) {
   .cover {
     padding-top: 90px;
  /*  max-width: 768px; */
-    }
   }
-  @media screen and (max-width: 450px) {
-    .cover {
-      padding-top: 66px;
-    }
+}
+@media screen and (max-width: 450px) {
+  .cover {
+    padding-top: 66px;
   }
-  @media screen and (max-width: 450px) {
-    .cover {
-      min-height: 100%;
-    }
+}
+@media screen and (max-width: 450px) {
+  .cover {
+    min-height: 100%;
   }
+}

@@ -24,22 +24,22 @@
   margin-right: 48px;
     }
   }
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .footer {
    padding-top: 88px;
    margin-left: 24px;
    margin-right: 24px;
    /* grid-template-columns: repeat(5, 9%) 55%; */
-    }
   }
-  @media screen and (max-width: 450px) {
-    .footer {
+}
+@media screen and (max-width: 450px) {
+  .footer {
     padding-top: 64px;
     margin-left: 0;
     margin-right: 0;
      /* display: flex; */
-     flex-direction: column;
+    flex-direction: column;
     flex-wrap: wrap;
     align-content: flex-start;
-    }
   }
+}

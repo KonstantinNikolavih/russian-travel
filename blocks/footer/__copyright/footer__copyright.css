@@ -20,15 +20,15 @@
   .footer__copyright {
     /* align-self: center; */
 /* margin-top: 0; */
-    }
   }
-  @media screen and (max-width: 768px) {
-    .footer__copyright {
-      margin-top: 0;
+}
+@media screen and (max-width: 768px) {
+  .footer__copyright {
+    margin-top: 0;
      /*  text-align: left; */
-    }
   }
-  @media screen and (max-width: 450px) {
+}
+@media screen and (max-width: 450px) {
   .footer__copyright {
     /* margin-top: 48px; */
     margin-top: 32px;
@@ -36,5 +36,5 @@
     font-size: 14px;
     line-height: 14px;
     margin-left: 16px;
-    }
   }
+}
