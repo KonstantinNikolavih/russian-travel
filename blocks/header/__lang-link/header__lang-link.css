@@ -13,6 +13,10 @@
   color: #FFFFFF;
   margin-right: 18px;
 }
+.header__lang-link:hover {
+  opacity: 0.3;
+  transition: all 5s 1s;
+}
 .header__lang-link:last-of-type {
   margin-right: 0;
 }
