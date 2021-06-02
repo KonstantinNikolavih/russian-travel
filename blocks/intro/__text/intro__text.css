@@ -10,3 +10,8 @@
   margin-top: 0;
   margin-bottom: 0;
 }
+@media screen and (max-width: 720px) {
+  .intro__text {
+    margin-right: 12px;
+  }
+}
