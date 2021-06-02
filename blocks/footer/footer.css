@@ -15,9 +15,9 @@
 }
 @media screen and (max-width: 768px) {
   .footer {
-   padding-top: 88px;
-   margin-left: 24px;
-   margin-right: 24px;
+    padding-top: 88px;
+    margin-left: 24px;
+    margin-right: 24px;
   }
 }
 @media screen and (max-width: 450px) {
