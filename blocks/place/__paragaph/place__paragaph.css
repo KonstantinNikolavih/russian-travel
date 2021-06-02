@@ -8,8 +8,6 @@
   font-size: 18px;
   line-height: 163%;
   /* or 29px */
-  color: #FFFFFF;
-  grid-area: paragaph;
   margin-top: 0;
 }
 .place__paragaph:last-of-type {

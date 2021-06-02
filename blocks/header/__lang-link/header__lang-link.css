@@ -14,8 +14,7 @@
   margin-right: 18px;
 }
 .header__lang-link:hover {
-  opacity: 0.3;
-  transition: all 5s 1s;
+  opacity: 0.8;
 }
 .header__lang-link:last-of-type {
   margin-right: 0;
