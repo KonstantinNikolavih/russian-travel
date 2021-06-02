@@ -3,6 +3,7 @@
   margin-left: 48px;
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
   align-items: center;
   padding-top: 92px;
   padding-bottom: 24px;
@@ -20,13 +21,20 @@
     margin-right: 24px;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 750px) {
+  .footer {
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+}
+@media screen and (max-width: 525px) {
   .footer {
     padding-top: 64px;
     margin-left: 0;
     margin-right: 0;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: flex-start;
+    display: grid;
+    justify-items: start;
+    justify-content: start;
+    align-content: space-between;
   }
 }

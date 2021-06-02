@@ -1,4 +1,5 @@
 .footer__menu {
+  display: flex;
   align-self: center;
 }
 @media screen and (max-width: 1024px) {
@@ -6,11 +7,12 @@
 
   }
 }
-@media screen and (max-width: 756px) {
+@media screen and (max-width: 700px) {
   .footer__menu {
+    margin-left: 16px;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 525px) {
   .footer__menu {
     flex-direction: column;
     justify-content: flex-end;
